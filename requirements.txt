@@ -1,0 +1,7 @@
+FirstHelper script, whose developer is @Professore_1, has stabilized many multifunctional tools. 
+FirstHelper works as an emergency help code for you, allowing you to navigate through the script in an organized menu.
+
+
+How to use : 
+1-) sudo chmod +x FirstHelper.py
+2-) sudo python3 FirstHelper.py
