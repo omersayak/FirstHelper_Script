@@ -1,5 +1,4 @@
 # FirstHelper_Script
-Auto Script
 It is a script that makes important tools in Linux autonomous with py.
  
  Method of use :
