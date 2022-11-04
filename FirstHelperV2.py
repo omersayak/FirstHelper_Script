@@ -198,26 +198,24 @@ def tool5():
     print("""
     
     -Create Wordlist-
-    
-    1-) Crunch
-    2-) Cupp
-    3-) Main menu
+   
+    1-) Cupp
+    2-) Main menu
+    3-) Exit
     
     """)
     wordsecim = input("Please choose the Wordlist tool : ")
 
-    if wordsecim == "1":
-        minc = input("What is the minimum number? : ")
-        maxc = input("What is the maximum number? : ")
-        icindekikelime = input("Which words/numbers should be in it? : ")
-        dosyaadic = input("Dosyanın adı ne olsun? (uzantısı ile beraber yazınız) ")
-        os.system("crunch "+minc+ " "+ maxc+ " "+ icindekikelime +"-o"+ dosyaadic)
+    
 
-    elif wordsecim == "2":
+    if wordsecim == "1":
         os.system("cd cupp && chmod +x cupp.py && sudo python3 cupp.py -i")
 
-    elif wordsecim == "3":
+    elif wordsecim == "2":
         main()
+    
+    elif wordsecim == "3":
+        quit()
 
     else:
         print("Wrong choice!!")
